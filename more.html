@@ -201,6 +201,67 @@
                           <h3>কম্পাস</h3></a>
                           </div>
                   </div>
+        </div>
+    </div>
+
+
+    <section>
+        <div class="navigation">
+            <ul>
+                <li class="list active">
+                    <a href="#">
+                        <span class="icon"><i class="fa-solid fa-house-chimney"></i></span>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#">
+                        <span class="icon"><i class="fa-solid fa-book-open"></i></span>
+                        <span class="text">Topic</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#">
+                        <span class="icon"><i class="fa-solid fa-mosque"></i></span>
+                        <span class="text">ISLAM</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#">
+                        <span class="icon"><i class="fa-solid fa-book-quran"></i></span>
+                        <span class="text">Al-Quran</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#">
+                        <span class="icon"><i class="fa-solid fa-list-ul"></i></span>
+                        <span class="text">More</span>
+                    </a>
+                </li>
+                <div class="indicator"></div>
+            </ul>
+        </div>
+    </section>
+
+    <script>
+        const list = document.querySelectorAll('.list');
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((item) =>
+        item.addEventListener('click',activeLink));
+    </script>
+
+
+
+
+
                 
 
     <!--

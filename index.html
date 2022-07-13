@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     
-    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="bNav.css">  
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,27 +16,60 @@
 
 </head>
 <body>
-    <nav class="nav">
-        <a href="#" class="nav-links">
-            <i class="fa-solid fa-house-chimney"></i>
-            <span class="nav-text">Dashboard</span>
-        </a>
 
-        <a href="#" class="nav-links link-active">
-         <i class="fa-solid fa-arrow-up-from-ground-water"></i>
-            <span class="nav-text">Topic</span>
-        </a>
+    <section>
+        <div class="navigation">
+            <ul>
+                <li class="list active">
+                    <a href="#">
+                        <span class="icon"><i class="fa-solid fa-house-chimney"></i></span>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
 
-        <a href="#" class="nav-links">
-            <i class="fa-solid fa-book-open"></i>
-            <span class="nav-text">Al-Quran</span>
-        </a>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon"><i class="fa-solid fa-book-open"></i></span>
+                        <span class="text">Topic</span>
+                    </a>
+                </li>
 
-        <a href="more.html" class="nav-links">
-          <i class="fa-solid fa-align-left"></i>
-            <span class="nav-text">More</span>
-        </a>
-    </nav>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon"><i class="fa-solid fa-mosque"></i></span>
+                        <span class="text">ISLAM</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#">
+                        <span class="icon"><i class="fa-solid fa-book-quran"></i></span>
+                        <span class="text">Al-Quran</span>
+                    </a>
+                </li>
+
+                <li class="list">
+                    <a href="#">
+                        <span class="icon"><i class="fa-solid fa-list-ul"></i></span>
+                        <span class="text">More</span>
+                    </a>
+                </li>
+                <div class="indicator"></div>
+            </ul>
+        </div>
+    </section>
+
+    <script>
+        const list = document.querySelectorAll('.list');
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((item) =>
+        item.addEventListener('click',activeLink));
+    </script>
+
 
 </body>
-</html>    
+</html>
