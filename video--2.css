@@ -76,8 +76,12 @@
     border-radius: 9px;
 } 
 
-.videoo-list ul li a .title{
+.videoo-list ul li a .titlee{
     padding-top: 25px;
+}
+
+.list-videos{
+    padding-top: 291px !important;
 }
 
 
