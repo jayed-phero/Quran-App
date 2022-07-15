@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
+    list-style: none;
  }
 
 
@@ -17,7 +18,7 @@
 }
 
 .videoo-list{
-    padding-top: 291px;
+    padding-top: 275px;
     background: #171431;
     padding-bottom: 9px;
 }
@@ -38,17 +39,27 @@
 }
 
 .videoo-list ul li a img{
-    width: 101px;
-    height: 65px;
+    width: 45px;
+    height: 45px;
     border-radius: 11px;
  
 }
 
 .videoo-list ul li a h3{
-    color: #fefdff;
-    font-size: 13px;
-    padding-left: 15px;
-    padding-top: 11px;
+    color: #c5becd;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-top: 3px;
+    
+}
+
+
+.videoo-list ul li a p{
+    color: #8e8a93;
+    font-size: 15px;
+    padding-left: 75px;
+    padding-top: 13px;
+    
 }
 
 
@@ -67,25 +78,15 @@
 }
 
 .main-video h3{
+    text-align: center;
      color: #ffffff;
      font-size: 17px;
      padding-top: 11px;
      padding-left: 19px;
+     font-weight: 600;
 }
 
-
-/*=====khoyme-quran----*/
-
-.width-151px{
-    width: 161px !important;
-    height: 91px !important;
-    border-radius: 9px;
-} 
-
-.videoo-list ul li a .titlee{
-    padding-top: 25px;
-}
-
-.list-videos{
-    padding-top: 291px !important;
+.main-video h3 span{
+    color: #aea8b4;
+    font-size: 13px;
 }
