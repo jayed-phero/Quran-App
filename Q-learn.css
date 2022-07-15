@@ -38,11 +38,11 @@
 }
 
 .videoo-list ul li a img{
-    width: 101px;
-    height: 65px;
+    width: 151px;
+    height: 95px;
     border-radius: 11px;
     text-align: right;
-    margin-left: 35px;
+    margin-left: 45px;
  
 }
 
@@ -90,14 +90,3 @@
 }
 
 
-/*=====khoyme-quran----*/
-
-.width-151px{
-    width: 151px !important;
-    height: 91px !important;
-    border-radius: 9px;
-} 
-
-.list-videos{
-    padding-top: 291px !important;
-}
