@@ -2139,6 +2139,7 @@ body{
     height: auto;
     width: 100%;
     background: #151c26;
+    padding-bottom: 25px;
 }
 
 .more-new h2{
@@ -2172,7 +2173,7 @@ body{
 
 .item-101{
     height: 151px;
-    width: 145px;
+    width: 143px;
     background: #1d2436;
    
     border-radius: 15px;
@@ -2210,6 +2211,7 @@ body{
     text-align: center;
     color: #e4f6fd;
     padding-top: 25px;
+
 }
 
 .more-new2 h4{
