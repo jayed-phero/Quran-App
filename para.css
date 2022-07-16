@@ -28,21 +28,6 @@
     display: flex;
 }
 
-.videoo-list ul li a h2{
-    padding-left: 15px;
-    font-size: 17px;
-    color: #ffffff;
-    padding-top: 5px;
-}
-
-.videoo-list ul li .boll{
-    display: flex;
-}
-
-.videoo-list ul li div{
-    width: 255px;
-    padding-top: px
-}
 
 .videoo-list ul li{
     height: auto;
@@ -55,24 +40,34 @@
 }
 
 .videoo-list ul li a img{
-    width: 45px;
-    height: 45px;
+    width: 165px;
+    height: 65px;
     border-radius: 11px;
  
 }
 
 .videoo-list ul li a h3{
-    color: #c5becd;
-    font-size: 13px;
-    padding-left: 15px;
-    padding-top: 3px;
+    color: #eeebf1;
+    font-size: 19px;
+    padding-left: 25px;
+
     
 }
 
-.videoo-list ul li a p{
+
+.videoo-list ul li a h5{
     color: #8e8a93;
+    font-size: 13px;
+    padding-left: 25px;
+    
+}
+
+.videoo-list ul li a h4{
+    color: #bebbc2;
+    padding-top: 5px;
     font-size: 15px;
-    padding-top: 13px;  
+    padding-left: 25px;
+    
 }
 
 
@@ -87,11 +82,11 @@
     font-size: 13px;
     padding-left: 19px;
     padding-top: 5px;
-
 }
 
+
 .main-video h3{
-    text-align: center;
+     text-align: center;
      color: #ffffff;
      font-size: 17px;
      padding-top: 11px;
